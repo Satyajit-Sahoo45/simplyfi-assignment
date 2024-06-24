@@ -1,0 +1,45 @@
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.diamond {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transform: rotate(45deg);
+  margin-bottom: 20px;
+  border-width: 20px;
+  border-style: solid;
+  border-color: #f25e53 #8ff08f #699bf9 #ddef78;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  transform: rotate(-45deg);
+}
+
+.inner_text_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.text .desc {
+  display: block;
+  font-size: 12px;
+}
+
+.andsym {
+  color: red;
+}
