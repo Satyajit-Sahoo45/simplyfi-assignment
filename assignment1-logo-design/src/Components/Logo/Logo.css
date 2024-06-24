@@ -36,22 +36,33 @@
 
 .bottom {
   bottom: var(--r);
+}
+
+.cor-1 {
   background-color: rgb(213, 89, 178);
+}
+
+.cor-2 {
+  background-color: rgb(107, 77, 51);
+}
+.cor-3 {
+  background-color: rgb(213, 89, 178);
+}
+
+.cor-4 {
+  background-color: rgb(182, 142, 108);
 }
 
 .right {
   right: var(--r);
-  background-color: rgb(107, 77, 51);
 }
 
 .top {
   top: var(--r);
-  background-color: rgb(213, 89, 178);
 }
 
 .left {
   left: var(--r);
-  background-color: rgb(107, 77, 51);
 }
 
 .text {

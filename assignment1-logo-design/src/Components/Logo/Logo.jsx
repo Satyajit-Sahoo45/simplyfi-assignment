@@ -5,10 +5,10 @@ const Logo = () => {
     return (
         <div className="logo-container">
             <div className="diamond">
-                <div class="conner top left"></div>
-                <div class="conner top right"></div>
-                <div class="conner bottom left"></div>
-                <div class="conner bottom right"></div>
+                <div class="conner top left cor-1"></div>
+                <div class="conner top right cor-2"></div>
+                <div class="conner bottom left cor-3"></div>
+                <div class="conner bottom right cor-4"></div>
 
                 <div className="text">
                     <div className='inner_text_1'>HTML
