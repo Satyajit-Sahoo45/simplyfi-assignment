@@ -1,3 +1,7 @@
+:root {
+  --r: -20px;
+}
+
 .logo-container {
   display: flex;
   flex-direction: column;
@@ -21,6 +25,33 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.conner {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+}
+
+.bottom {
+  bottom: var(--r);
+  background-color: rgb(213, 89, 178);
+}
+
+.right {
+  right: var(--r);
+  background-color: rgb(107, 77, 51);
+}
+
+.top {
+  top: var(--r);
+  background-color: rgb(213, 89, 178);
+}
+
+.left {
+  left: var(--r);
+  background-color: rgb(107, 77, 51);
 }
 
 .text {
